@@ -9,9 +9,11 @@ install brew-cask || true
 # Packages
 install --disable-etcdir zsh || true
 install vim || true
+install tree || true
 install jq || true
 install curl || true
 install wget || true
+install ansible || true
 # Cask Packages
 cask install iterm2 || true
 cask install alfred || true
