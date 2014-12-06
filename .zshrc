@@ -1,6 +1,7 @@
 # 環境変数
 export LANG=ja_JP.UTF-8
 export PATH=${PATH}:/usr/local/bin
+[ -f ~/.zshrc.include ] && source ~/.zshrc.include
 
 # color setting
 autoload -Uz colors
